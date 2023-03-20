@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entrypoint
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
@@ -16,7 +16,7 @@ int main(void)
 	while
 		(c <= 'z')
 		{
-			purchar(c);
+			putchar(c);
 			c++;
 		}
 	while
